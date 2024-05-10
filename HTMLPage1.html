@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+</head>
+<body>
+    <div id="body">
+        <header class="setup">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+         <form id="survey-form" action="/" method="post">
+             <label id="name-label" for="name">Name</label>
+             <input type="text" id="name" placeholder="Enter your name" value="" required/>
+             <label id="email-label" for="email">Email</label>
+             <input type="email" id="email" placeholder="Enter your email" value="" required/>
+             <label id="number-label" for="number">Age (optional)</label>
+             <input type="number" id="number" placeholder="Age" min="18" max="120" value=""/>
+             <label for="dropdown">Which option best describes your current role?
+                 <select id="dropdown">
+                 <option value=""></option>
+                 <option value="1">Student</option>
+                 <option value="2">Full Time Job</option>
+                 <option value="3">Unemployed</option>
+                </select>
+            </label>
+             <fieldset>
+                 Would you recommend freeCodeCamp to a friend?
+                 <label for="11"><input type="radio" id="11" class="hm" name="smh" value="1" checked /> Definitely</label>
+                 <label for="22"><input type="radio" id="22" class="hm" name="smh" value="2" /> Maybe</label>
+                 <label for="33"><input type="radio" id="33" class="hm" name="smh" value="3" /> Not sure</label>
+             </fieldset>
+             <fieldset>
+                 What do you need to learn more of ?
+                 <label for="C1"><input type="checkbox" id="C1" class="hm" name="check" value="1" />HTML</label>
+                 <label for="C2"><input type="checkbox" id="C2" class="hm" name="check" value="2" />CSS</label>
+                 <label for="C3"><input type="checkbox" id="C3" class="hm" name="check" value="3" />JS</label>
+                 <label for="C4"><input type="checkbox" id="C4" class="hm" name="check" value="4" />React</label>
+                 <label for="C5"><input type="checkbox" id="C5" class="hm" name="check" value="5" />Art</label>
+             </fieldset>
+             <fieldset>
+                 Thoughts?
+                 <textarea id="textarea" rows="10" cols="30" placeholder="Comment it in here..."></textarea>
+             </fieldset>
+             <button type="submit" id="submit">Submit</button>
+         </form>
+    </div>
+</body>
+</html>

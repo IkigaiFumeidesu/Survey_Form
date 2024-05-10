@@ -1,0 +1,55 @@
+﻿body {
+    color: white;
+    background-image: url('bg.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+#title {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding-top: 30px;
+}
+#description {
+    font-size : 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#survey-form {
+    width: 80vw;
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 300px;
+}
+.setup {
+    text-align: center; 
+}
+label {
+    display: block;
+    padding: 0;
+}
+input, textarea, select {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+fieldset {
+    border: 0;
+}
+.hm {
+    width: unset;
+    vertical-align: middle;
+    display: inline;
+}
+#submit {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+#textarea {
+    padding-bottom: 30px;
+}
